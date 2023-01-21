@@ -7,3 +7,4 @@ xcode-select --install
 brew install iterm2 --cask
 #oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install zsh-syntax-highlighting
