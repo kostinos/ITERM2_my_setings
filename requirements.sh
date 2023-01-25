@@ -1,3 +1,17 @@
+SPCTLisDisabled=1
+CURRENT_USER=$(stat -f '%Su' /dev/console)
+
+
+if [[ $(whoami) != "root" ]]; then
+    echo "I will need root privelegies. \nType your \033[31mmac-password and press Enter.\033[0m"
+fi
+    SPCTLisDisabled=$(sudo spctl --status)
+if [[ $SPCTLisDisabled = "assessments enabled" ]]; then
+    sudo spctl --master-disable
+fi
+
+#install components
+
 #Use ZSH
 chsh -s /bin/zsh
 # Homebrew
