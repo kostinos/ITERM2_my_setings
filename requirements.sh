@@ -5,6 +5,13 @@ chsh -s /bin/zsh
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #iterm2
+brew install git
+brew install htop
+brew install nmap
+cask install betterzip
+cask install openinterminal
+brew install telnet
+brew install wget
 brew install --cask iterm2
 brew install --cask raycast
 brew install --cask visual-studio-code
