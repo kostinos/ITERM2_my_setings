@@ -5,7 +5,14 @@ chsh -s /bin/zsh
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #iterm2
-brew install iterm2 --cask
+brew install --cask iterm2
+brew install --cask raycast
+brew install --cask visual-studio-code
+brew install --cask tor-browser
+brew install --cask google-chrome
+brew install --cask spotify
+
+
 #oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew install zsh-syntax-highlighting
