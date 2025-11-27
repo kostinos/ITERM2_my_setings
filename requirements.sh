@@ -11,7 +11,7 @@ brew install --cask visual-studio-code
 brew install --cask tor-browser
 brew install --cask google-chrome
 brew install --cask spotify
-
+brew install --cask telegram
 
 #oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
