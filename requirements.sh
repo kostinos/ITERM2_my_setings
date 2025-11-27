@@ -9,7 +9,7 @@ brew install git
 brew install htop
 brew install nmap
 cask install betterzip
-cask install openinterminal
+brew install --cask openinterminal
 brew install telnet
 brew install wget
 brew install --cask iterm2
