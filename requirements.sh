@@ -19,6 +19,7 @@ brew install --cask tor-browser
 brew install --cask google-chrome
 brew install --cask spotify
 brew install --cask telegram
+brew install --cask wireshark-app
 
 #oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
